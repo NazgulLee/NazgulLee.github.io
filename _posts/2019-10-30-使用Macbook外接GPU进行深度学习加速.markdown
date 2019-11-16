@@ -8,7 +8,9 @@
 ### 安装HighSierra
 深度学习用到的GPU加速库是英伟达的Cuda，需配合英伟达的GPU使用。在Mac上外接英伟达的GPU需要安装对应的驱动，但是英伟达提供的驱动支持的macOS版本最高只到HighSierra。我的Air系统是卡特琳娜，需要降级到HighSierra，只能重装系统。
 
-#### 警告：安装HighSierra后可能无法安装使用Xcode！！！
+#### 警告：安装HighSierra后只能安装老版的Xcode，需要去[官网](https://developer.apple.com/download/more/)下载Xcode的压缩包解压安装，但可能会出现压缩包证书过期无法解压的情况，会弹窗说“Xcode.xip不是来自apple”，解决方法是，把系统时间调前。参考[Xcode xip "The archive does not come from Apple"](https://forums.developer.apple.com/thread/125108)
+
+![](../resources/post1/xcode_unzip_failed.png)
 
 #### 备份电脑
 请参考apple官方文档[使用timemachine备份Mac](https://support.apple.com/zh-cn/HT201250)
